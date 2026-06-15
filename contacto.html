@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Contacto</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📞 Contáctanos</h1>
+</header>
+
+<nav>
+    <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="destinos.html">Destinos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="precios.html">Precios</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+<section class="fade">
+    <h2>Envíanos un mensaje ✉️</h2>
+
+   <form action="https://formsubmit.co/isasalinas0913@gmail.com" method="POST">
+
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="gracias.html">
+    <input type="hidden" name="_template" value="table">
+
+    <input type="text" name="nombre" placeholder="Nombre completo" required>
+
+    <input type="email" name="correo" placeholder="Correo electrónico" required>
+
+    <input type="tel" name="telefono" placeholder="Teléfono">
+
+    <select name="tipo_consulta">
+        <option value="">Tipo de consulta</option>
+        <option>Reservación</option>
+        <option>Información</option>
+        <option>Soporte</option>
+    </select>
+
+    <textarea name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5"></textarea>
+
+    <button type="submit">Enviar mensaje</button>
+
+</form>
+</section>
+
+<footer>
+    <p>© 2026 Agencia de Viajes</p>
+</footer>
+
+</body>
+</html>
